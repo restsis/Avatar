@@ -1,0 +1,57 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	border: none;
+    box-sizing: border-box;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    font-family: 'Lora';
+    color: #FFFFFF;
+}
+body {
+    margin: 0 auto;
+}
+.header_background {
+    background: url("./img/background_header.jpg") no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 1080px;
+    margin-top: -20px;
+}
+.header_img {
+    position: absolute;
+    top: 257px;
+    left: 25%;
+}
+.header {
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 60px;
+    text-align: center;
+    padding-top: 112px;
+}
+.main_container {
+    background: url(./img/water.jpg) no-repeat;
+    background-size: 100%;
+}  
+.text {
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+    width: 944px;
+    height: 156px;
+    margin-top: 100px;
+    margin-left: 488px;
+}
+.rectangle {
+    width: 64px;
+    height: 376px;
+    border: 6px solid #26C7EA;
+    margin-top: 100px;
+}
+.grid {
+    display: flex;
+    gap: 24px;
+    margin-left: 444px;
+}
